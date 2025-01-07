@@ -1,0 +1,29 @@
+.Fams {
+    height: 100vh;
+    width: 100vw;
+}
+
+.node__root {
+    fill: black !important;
+    stroke: none !important;
+}
+
+.node__branch {
+    fill: black !important;
+    stroke: none !important;
+}
+
+.node__leaf {
+    fill: black !important;
+    stroke: none !important;
+}
+
+img {
+    border-radius: 50%;
+    height: 100%;
+}
+
+text {
+    font-size: 3rem;
+}
+
