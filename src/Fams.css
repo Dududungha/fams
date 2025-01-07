@@ -3,6 +3,17 @@
     width: 100vw;
 }
 
+.tree-name {
+    position: absolute;
+    background-color: white;
+    top: 5vh;
+    left: 5vh;
+    font-size: 3rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    box-shadow: 0.3rem 0.3rem 0.5rem lightgray;
+}
+
 .node__root {
     fill: black !important;
     stroke: none !important;
@@ -26,4 +37,3 @@ img {
 text {
     font-size: 3rem;
 }
-

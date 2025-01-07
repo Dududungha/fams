@@ -1,21 +1,28 @@
 {
-    "name": "Tuan Tran",
-    "children": [
-        {
-            "name": "Jennifer Yu",
-            "children": [],
-            "image": "https://pixorator.com/wp-content/uploads/2022/01/pop-cat-meme-jpg.webp"
-        },
-        {
-            "name": "Murou Wang",
-            "children": [],
-            "image": "https://pixorator.com/wp-content/uploads/2022/01/pop-cat-meme-jpg.webp"
-        },
-        {
-            "name": "Wanning Lu",
-            "children": [],
-            "image": "https://pixorator.com/wp-content/uploads/2022/01/pop-cat-meme-jpg.webp"
-        }
-    ],
-    "image": "https://pixorator.com/wp-content/uploads/2022/01/pop-cat-meme-jpg.webp"
+    "name": "OOP Tree",
+    "tree": {
+        "firstName": "Tuan (Tony)",
+        "lastName": "Tran",
+        "children": [
+            {
+                "firstName": "Jennifer",
+                "lastName": "Yu",
+                "children": [],
+                "image": "https://pixorator.com/wp-content/uploads/2022/01/pop-cat-meme-jpg.webp"
+            },
+            {
+                "firstName": "Murou",
+                "lastName": "Wang",
+                "children": [],
+                "image": "https://pixorator.com/wp-content/uploads/2022/01/pop-cat-meme-jpg.webp"
+            },
+            {
+                "firstName": "Wanning",
+                "lastName": "Lu",
+                "children": [],
+                "image": "https://pixorator.com/wp-content/uploads/2022/01/pop-cat-meme-jpg.webp"
+            }
+        ],
+        "image": "https://pixorator.com/wp-content/uploads/2022/01/pop-cat-meme-jpg.webp"
+    }
 }
