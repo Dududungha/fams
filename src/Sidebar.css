@@ -4,6 +4,7 @@
     height: 100vh;
     width: 20vw;
     transform: translate(-20vw);
+    z-index: 1;
 }
 
 .Sidebar.hidden {
@@ -63,6 +64,7 @@
     top: 1vh;
     cursor: pointer;
     transform: translate(1vh);
+    z-index: 1;
 }
 
 .hamburger.hidden {

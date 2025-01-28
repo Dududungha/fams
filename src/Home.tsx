@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Sidebar from './Sidebar.tsx';
+import FadeInSection from './FadeInSection.tsx'
 import './Home.css';
 
 function Home() {
@@ -13,6 +14,7 @@ function Home() {
                 </div>
             </div>
             <div id="intro" className="section light">
+                <FadeInSection>
                 <div className="section-content">
                 <div className="h1">
                     What is bit-byte?
@@ -21,8 +23,10 @@ function Home() {
                     bit-byte is ACM's big little program. It is a great opportunity to socialize, meet new people, get more involved, and make lifelong friends.
                 </div>
                 </div>
+                </FadeInSection>
             </div>
             <div id="process" className="section dark">
+                <FadeInSection>
                 <div className="section-content">
                 <div className="h1">
                     Process
@@ -31,8 +35,10 @@ function Home() {
                     
                 </div>
                 </div>
+                </FadeInSection>
             </div>
             <div id="join-us" className="section light">
+                <FadeInSection>
                 <div className="section-content">
                 <div className="h1">
                     Join us!
@@ -41,6 +47,7 @@ function Home() {
                     Discord is our primary source of communication, so make sure to join our Discord and give yourself the bit-byte role to keep up with all of our announcements!
                 </div>
                 </div>
+                </FadeInSection>
             </div>
         </div>
     )
